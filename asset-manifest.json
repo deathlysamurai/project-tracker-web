@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/repo-name/static/css/main.43ba2439.css",
-    "main.js": "/repo-name/static/js/main.f0a640cb.js",
-    "index.html": "/repo-name/index.html",
-    "main.43ba2439.css.map": "/repo-name/static/css/main.43ba2439.css.map",
-    "main.f0a640cb.js.map": "/repo-name/static/js/main.f0a640cb.js.map"
+    "main.css": "/project-tracker-web/static/css/main.43ba2439.css",
+    "main.js": "/project-tracker-web/static/js/main.f0a640cb.js",
+    "index.html": "/project-tracker-web/index.html",
+    "main.43ba2439.css.map": "/project-tracker-web/static/css/main.43ba2439.css.map",
+    "main.f0a640cb.js.map": "/project-tracker-web/static/js/main.f0a640cb.js.map"
   },
   "entrypoints": [
     "static/css/main.43ba2439.css",
