@@ -29,7 +29,7 @@
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://username.github.io/repo-name",
+  "homepage": "https://username.github.io/project-tracker-web",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
