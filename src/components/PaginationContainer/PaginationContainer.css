@@ -1,0 +1,24 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-row-count-select {
+    margin-left: 10px !important;
+}
+
+.pagination-row-count-select .MuiSelect-select {
+    padding: 0px 25px 0px 10px !important;
+}
+
+.pagination-row-selector {
+    margin-right: 5px;
+}
+
+.inactive-icon > path {
+    color: gray !important;
+}
+
+button:has(> .inactive-icon) {
+    pointer-events: none !important;
+}

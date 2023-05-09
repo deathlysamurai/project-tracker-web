@@ -1,0 +1,43 @@
+.projects-container {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 650px;
+}
+
+.MuiTooltip-tooltip {
+    background-color: var(--primary) !important;
+}
+
+.MuiToggleButton-root.Mui-selected {
+    background-color: var(--primary) !important;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.project-container:hover {
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.projects-spinner {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center;
+    padding: 20px;
+}
+
+.project-title {
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 679px) {
+    .projects-container {
+        min-width: unset;
+    }
+}

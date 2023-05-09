@@ -1,0 +1,21 @@
+.bugs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        'button status status status status status'
+        'button priority priority project project project'
+        'button priority priority project project project';
+    gap: 10px;
+    min-height: 85vh;
+}
+
+.bugs-grid-item {
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 739px) {
+
+}

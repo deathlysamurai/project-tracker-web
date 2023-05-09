@@ -1,0 +1,53 @@
+.single-bug-header-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed var(--primary);
+    width: 100%;
+}
+
+.bug-header-section {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.bug-header-value-section {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.bug-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.bug-status-icon {
+    padding-right: 10px !important;
+    display: flex;
+    align-items: center;
+}
+
+.bug-update-button {
+    margin-left: 10px !important;
+}
+
+@media screen and (max-width: 370px) {
+    .single-bug-title {
+        padding-right: 0;
+        margin-right: 5px !important;
+    }
+
+    .bug-title-container {
+        padding-bottom: 5px;
+    }
+
+    .bug-header-value-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}

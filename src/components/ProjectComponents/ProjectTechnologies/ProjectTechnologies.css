@@ -1,0 +1,9 @@
+.technology-edit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}

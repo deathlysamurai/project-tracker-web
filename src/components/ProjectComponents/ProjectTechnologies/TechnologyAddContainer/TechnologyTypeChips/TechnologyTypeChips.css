@@ -1,0 +1,39 @@
+.technology-chip-container {
+    display: flex;
+}
+
+.technology-chip-container .MuiChip-root {
+    margin: 3px 3px 0px 3px !important;
+}
+
+.web-technology-chip {
+    display: inline-flex !important;
+}
+
+.mobile-technology-chip {
+    display: none !important;
+}
+
+.selected-type-chip {
+    background-color: var(--primary) !important;
+}
+
+@media screen and (max-width: 462px) {
+    .web-technology-chip {
+        display: none !important;
+    }
+    
+    .mobile-technology-chip {
+        display: inline-flex !important;
+    }
+
+    .mobile-technology-chip svg {
+        margin-right: 6px !important;
+        margin-left: 6px !important;
+    }
+
+    .mobile-technology-chip span {
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
+}

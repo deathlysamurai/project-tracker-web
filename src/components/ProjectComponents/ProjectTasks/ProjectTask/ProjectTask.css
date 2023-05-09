@@ -1,0 +1,16 @@
+.project-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task-check {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-left: var(--primary) 1px dashed;
+}

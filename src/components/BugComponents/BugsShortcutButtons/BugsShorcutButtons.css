@@ -1,0 +1,19 @@
+.shortcut-buttons-container {
+    grid-area: button;
+}
+
+.shortcut-button-group {
+    padding: 10px;
+}
+
+.shortcut-button-group > *:first-child {
+    margin-bottom: 5px;
+}
+
+.shortcut-button-group > button {
+    margin-bottom: 2px !important;
+}
+
+.shortcut-button-group > button {
+    margin-left: 5px !important;
+}

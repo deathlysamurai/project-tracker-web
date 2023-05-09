@@ -1,0 +1,24 @@
+.add-bug-button {
+    float: right;
+    background-color: var(--primary) !important;
+}
+
+.add-priority-container {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.add-priority-title {
+    padding-right: 5px;
+}
+
+.empty-bug-error, .empty-project-error, .empty-description-error {
+    color: red !important;
+    display: none;
+}
+
+.active-error {
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.technology-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    row-gap: 5px;
+    padding-inline-start: 0;
+}
+
+.technology-list li {
+    margin-left: 2em;
+    margin-right: 1em;
+}
+
+.technology-remove-container:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.tech-name-container {
+    display: block;
+}
+
+@media screen and (max-width: 519px) {
+    .technology-list {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,32 @@
+.project-tasks-container {
+    display: grid;
+    width: 100%;
+}
+
+.tasks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-task-button {
+    float: right;
+    background-color: var(--primary) !important;
+}
+
+.filter-active {
+    background-color: var(--primary) !important;
+}
+
+.empty-task-error {
+    color: red !important;
+    padding-bottom: 5px;
+    display: none;
+}
+
+.empty-task-error-active {
+    color: red !important;
+    padding-bottom: 5px;
+    display: block;
+}

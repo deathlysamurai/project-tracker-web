@@ -1,0 +1,27 @@
+.bugs-status-container {
+    grid-area: status;
+    display: flex;
+    flex-direction: column;
+}
+
+.status-percents-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.status-graph-container {
+    display: inline-flex;
+    position: relative;
+}
+
+.status-graph-text {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

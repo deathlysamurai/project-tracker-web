@@ -1,0 +1,43 @@
+.stage-circle-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.stage-circles-container {
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.stage-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stage-circle {
+    border: black 1px dashed;
+    border-radius: 50px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.active-stage-circle {
+    background-color: var(--primary);
+    border-style: solid;
+}
+
+.mini-circle {
+    width: .5rem;
+    height: .5rem;
+}
+
+.clickable-circle:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

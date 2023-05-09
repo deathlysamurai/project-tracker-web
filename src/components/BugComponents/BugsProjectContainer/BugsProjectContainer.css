@@ -1,0 +1,43 @@
+.bugs-per-project-container {
+    grid-area: project;
+}
+
+.project-graph-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-graph-entry {
+    display: grid;
+    grid-template-areas: 'title graph number';
+    grid-template-columns: 2fr 8fr 1fr;
+    align-items: center;
+    height: auto;
+    flex-grow: 1;
+}
+
+.project-line-graph {
+    grid-area: graph;
+    margin: 0 10px;
+}
+
+.project-line-graph .MuiLinearProgress-root {
+    height: 10px;
+    border-radius: 5px;
+    background-color: unset;
+}
+
+.project-line-graph .MuiLinearProgress-root .MuiLinearProgress-bar {
+    border-radius: 5px;
+    background-color: var(--primary);
+}
+
+.project-line-title {
+    grid-area: title;
+}
+
+.project-line-number {
+    grid-area: number;
+    text-align: center;
+}

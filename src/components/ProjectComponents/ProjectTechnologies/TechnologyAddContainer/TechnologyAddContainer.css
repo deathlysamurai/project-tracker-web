@@ -1,0 +1,27 @@
+.technology-add-container {
+    margin: 5px 0px 0px 15px;
+    width: unset;
+    align-items: stretch;
+}
+
+.technology-add-inputs-container {
+    width: 100%;
+}
+
+.technology-add-icon {
+    border-left: var(--primary) 1px dashed;
+    margin-left: 10px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.type-error, .empty-tech-error, .current-tech-error {
+    color: red !important;
+    display: none;
+}
+
+.type-error-active, .empty-tech-error-active, .current-tech-error-active {
+    color: red !important;
+    display: block;
+}

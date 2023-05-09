@@ -1,0 +1,27 @@
+.add-project-button {
+    float: right;
+    background-color: var(--primary) !important;
+}
+
+.add-stage-container {
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+}
+
+.add-stage-title {
+    padding-right: 5px;
+}
+
+.add-project-display > svg > path {
+    color: var(--primary) !important;
+}
+
+.empty-project-error {
+    color: red !important;
+    display: none;
+}
+
+.active-error {
+    display: block;
+}

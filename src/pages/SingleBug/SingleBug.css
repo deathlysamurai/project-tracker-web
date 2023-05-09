@@ -1,0 +1,30 @@
+.single-bug-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.single-bug-description-section, .single-bug-notes-section {
+    display: block;
+    grid-template-columns: 100%;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.single-bug-project-title {
+    border-bottom: 1px dashed var(--primary);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.single-bug-description {
+    margin: 10px 20px 0 20px;
+}
+
+.single-bug-grid-section {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 10px;
+}

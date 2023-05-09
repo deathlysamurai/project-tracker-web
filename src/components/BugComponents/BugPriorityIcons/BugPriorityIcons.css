@@ -1,0 +1,39 @@
+.priority-bug-icons-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.priority-bug-icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priority-bug-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priority-bug-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priority-bug-icon > .MuiSvgIcon-root > path {
+    color: gray !important;
+}
+
+.active-bug-icon > .MuiSvgIcon-root > path {
+    color: var(--text) !important;
+}
+
+.mini-bug-icon > .MuiSvgIcon-root {
+    width: .8rem;
+    height: .8rem;
+}
+
+.clickable-bug:hover > .MuiSvgIcon-root > path {
+    cursor: pointer;
+    color: var(--primary) !important;
+}

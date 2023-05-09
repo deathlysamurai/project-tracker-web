@@ -1,0 +1,36 @@
+.create-new-tech-button {
+    background-color: var(--primary) !important;
+}
+
+.tech-update-modal-grid-container {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    text-align: center;
+    align-items: center;
+}
+
+.update-technology-container .MuiInputBase-root {
+    margin: 5px;
+}
+
+.tech-update-right-icon {
+    display: inline-block !important;
+}
+
+.tech-update-down-icon {
+    display: none !important;
+}
+
+@media screen and (max-width: 519px) {
+    .tech-update-modal-grid-container {
+        grid-template-columns: unset;
+    }
+
+    .tech-update-right-icon {
+        display: none !important;
+    }
+    
+    .tech-update-down-icon {
+        display: inline-block !important;
+    }
+}

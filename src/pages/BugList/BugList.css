@@ -1,0 +1,59 @@
+.bug-list-container {
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 800px;
+}
+
+.MuiTooltip-tooltip {
+    background-color: var(--primary) !important;
+}
+
+.MuiToggleButton-root.Mui-selected {
+    background-color: var(--primary) !important;
+}
+
+.bug-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.bug-container:hover {
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.bug-spinner {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bugs-list-status-icon {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bugs-list-title-container {
+    display: flex;
+    align-items: center;
+}
+
+.empty-bugs {
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 679px) {
+    .bug-list-container {
+        min-width: unset;
+    }
+
+    .bug-title {
+        margin-right: 2rem;
+    }
+}

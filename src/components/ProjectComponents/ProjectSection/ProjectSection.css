@@ -1,0 +1,94 @@
+.project-section-wrapper {
+    width: 100%;
+    border-bottom: 2px dashed var(--primary);
+    margin-bottom: 10px;
+}
+
+.title-error-wrapper {
+    margin-bottom: 2px;
+    border: 2px solid var(--primary);
+    border-radius: 10px 10px 2px 2px;
+    padding: 10px;
+}
+
+.single-project-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-project-title {
+    margin-right: 20px !important;   
+}
+
+.project-section-title-container {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.single-project-content-section {
+    display: flex;
+    margin-bottom: 10px;
+    border: 2px solid var(--primary);
+    border-radius: 2px 2px 5px 5px;
+    padding: 10px;
+}
+
+.single-project-content-entries {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.single-project-content {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.single-project-content > button {
+    background-color: var(--primary) !important;
+}
+
+.single-project-content-entry > .MuiCheckbox-root > svg > path {
+    color: var(--primary) !important;
+}
+
+.empty-title-error {
+    display: block;
+    color: red !important;
+}
+
+.inactive-error {
+    display: none;
+}
+
+@media screen and (max-width: 346px) {
+    .single-project-title {
+        padding-right: 0;
+        margin-right: 5px !important;
+    }
+
+    .project-section-title-container > .stage-circle-wrapper > .stage-circles-container > .stage-circle-container > .stage-circle {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .single-project-content-entries {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .single-project-content {
+        display: block;
+    }
+
+    .single-project-content > button {
+        margin-top: 10px;
+        width: 50%;
+    }
+}

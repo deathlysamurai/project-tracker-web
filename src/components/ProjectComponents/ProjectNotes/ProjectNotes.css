@@ -1,0 +1,13 @@
+.notes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.notes-content button {
+    width: 64px;
+}
+
+.project-note-content {
+    width: 100%;
+}
