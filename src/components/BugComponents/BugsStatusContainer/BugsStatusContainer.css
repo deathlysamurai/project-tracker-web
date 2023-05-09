@@ -13,6 +13,8 @@
 .status-graph-container {
     display: inline-flex;
     position: relative;
+    height: fit-content;
+    justify-content: center;
 }
 
 .status-graph-text {
@@ -24,4 +26,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 913px) {
+    .bugs-list-status-circle {
+        height: 5em !important;
+        width: 5em !important;
+    }
+
+    .status-percents-container {
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .status-graph-text > * {
+        font-size: .75rem !important;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .status-percents-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }

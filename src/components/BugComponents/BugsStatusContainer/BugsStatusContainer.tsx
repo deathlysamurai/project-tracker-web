@@ -32,7 +32,7 @@ export default function BugsStatusContainer(props: {bugs: Bug[]}) {
             <div className='status-percents-container'>
                 {graphValues.map((val) => (
                     <div key={`${val.name}-status-graph-container`} className='status-graph-container'>
-                        <CircularProgress variant="determinate" value={val.percent} size={'150px'} />
+                        <CircularProgress className='bugs-list-status-circle' variant="determinate" value={val.percent} size={'150px'} />
                         <div className='status-graph-text'>
                         <Typography variant="h5" component="h5">{val.name}</Typography>
                         </div>

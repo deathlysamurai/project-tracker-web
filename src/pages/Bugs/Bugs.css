@@ -16,6 +16,12 @@
     padding: 10px;
 }
 
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 613px) {
+    .bugs-container {
+        display: block;
+    }
 
+    .bugs-container > * {
+        margin-bottom: 5px;
+    }
 }

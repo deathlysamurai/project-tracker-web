@@ -35,3 +35,22 @@
 .bug-project-filter-container > .MuiFormControl-root {
     margin: 0;
 }
+
+@media screen and (max-width: 445px) {
+    .bug-filter-container > .filter-toggle-group {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .bug-filter-container > .filter-toggle-group > button:not(:last-of-type) {
+        border-top-right-radius: 4px !important;
+        border-bottom-right-radius: 4px !important;
+    }
+
+    .bug-filter-container > .filter-toggle-group > button:not(:first-of-type) {
+        margin-left: unset !important;
+        border-left: 1px solid rgba(0, 0, 0, 0.12) !important;
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+    }
+}

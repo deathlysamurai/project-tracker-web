@@ -51,6 +51,7 @@
 @media screen and (max-width: 679px) {
     .bug-list-container {
         min-width: unset;
+        width: 100%;
     }
 
     .bug-title {
