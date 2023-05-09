@@ -10,13 +10,13 @@ import SingleBug from './pages/SingleBug/SingleBug';
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/project-tracker-web" element={<RootLayout />}>
-        <Route index element={<Navigate to="/project-tracker-web/projects" />} />
-        <Route path="/project-tracker-web/projects" element={<Projects />} />
-        <Route path="/project-tracker-web/projects/:projectId" element={<SingleProject />} />
-        <Route path="/project-tracker-web/bugs" element={<Bugs />} />
-        <Route path="/project-tracker-web/bugs/list" element={<BugList />} />
-        <Route path="/project-tracker-web/bugs/:bugId" element={<SingleBug />} />
+      <Route path="/" element={<RootLayout />}>
+        <Route index element={<Navigate to="/projects" />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="/projects/:projectId" element={<SingleProject />} />
+        <Route path="bugs" element={<Bugs />} />
+        <Route path="/bugs/list" element={<BugList />} />
+        <Route path="/bugs/:bugId" element={<SingleBug />} />
       </Route>
     )
   );
