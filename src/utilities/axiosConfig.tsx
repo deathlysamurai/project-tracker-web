@@ -1,7 +1,7 @@
 import axios from 'axios';
 import isDev from './isDev';
 
-const baseURL = isDev() ? 'http://172.16.2.17:8080/' : 'https://project-tracker-api-production.up.railway.app/';
+const baseURL = isDev() ? 'http://localhost:8080/' : 'https://project-tracker-api-production.up.railway.app/';
 const abortController = new AbortController();
 
 export const api = axios.create({
